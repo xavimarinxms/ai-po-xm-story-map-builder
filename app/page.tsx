@@ -71,7 +71,7 @@ export default function LandingPage() {
 
       <main className="flex-1">
         <section className="max-w-3xl mx-auto px-6 pt-24 pb-24 text-center">
-          <p className="text-xs font-semibold text-brand-600 mb-5 tracking-widest uppercase">PO Toolkit · Tool #13 of 13</p>
+          <p className="text-xs font-semibold text-brand-600 mb-5 tracking-widest uppercase">PO Toolkit · Tool #5 of 12</p>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-5 tracking-tight leading-tight">
             Story mapping,<br />finally digital
           </h1>
@@ -236,7 +236,7 @@ export default function LandingPage() {
       <footer className="border-t border-gray-200 bg-white">
         <div className="max-w-5xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-400">
           <span>Built by <a href="https://xavimarin.net" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors">Xavi Marín</a> · No data stored on our servers</span>
-          <span>PO Toolkit #13 of 13</span>
+          <span>PO Toolkit #5 of 12</span>
         </div>
       </footer>
     </div>
