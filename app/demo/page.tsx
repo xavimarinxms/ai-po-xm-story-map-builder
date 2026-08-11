@@ -44,6 +44,7 @@ function DemoPageInner() {
               className={`text-xs font-medium rounded-lg px-3 py-1.5 border transition-colors ${loaded === 'empty' ? 'bg-brand-50 text-brand-700 border-brand-300' : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'}`}>
               Start blank
             </button>
+            <a href="https://ai-po-xavi-marin-suite.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs font-medium text-gray-600 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-lg px-3 py-1.5 transition-colors">← AI PO Suite</a>
             <Link href="/" className="text-xs font-medium text-gray-600 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-lg px-3 py-1.5 transition-colors">← Home</Link>
           </div>
         </div>
