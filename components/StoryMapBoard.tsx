@@ -152,11 +152,11 @@ export default function StoryMapBoard({ initial }: Props) {
           )}
           <span className="text-xs text-gray-400">{map.activities.length} activities · {totalStories} stories</span>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2" data-tour="export">
           <button onClick={() => exportToCsv(map)} className="text-xs font-medium text-gray-600 hover:text-gray-900 bg-white hover:bg-gray-50 border border-gray-300 rounded-lg px-3 py-1.5 transition-colors">
             ↓ Export CSV
           </button>
-          <button onClick={addActivity} className="text-xs font-semibold text-white bg-brand-500 hover:bg-brand-600 rounded-lg px-3.5 py-1.5 transition-colors">
+          <button onClick={addActivity} data-tour="input" className="text-xs font-semibold text-white bg-brand-500 hover:bg-brand-600 rounded-lg px-3.5 py-1.5 transition-colors">
             + Activity
           </button>
         </div>

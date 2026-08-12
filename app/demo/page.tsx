@@ -37,6 +37,7 @@ function DemoPageInner() {
           </div>
           <div className="flex items-center gap-2">
             <button onClick={() => { setMap(SAMPLE_MAP); setLoaded('sample'); }}
+              data-tour="sample"
               className={`text-xs font-medium rounded-lg px-3 py-1.5 border transition-colors ${loaded === 'sample' ? 'bg-brand-50 text-brand-700 border-brand-300' : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'}`}>
               ✨ Sample map
             </button>
@@ -54,7 +55,7 @@ function DemoPageInner() {
         Demo mode — drag & drop to reorder · Double-click any card to edit · No account required
       </div>
 
-      <main className="flex-1 px-6 py-8">
+      <main className="flex-1 px-6 py-8" data-tour="results">
         <StoryMapBoard initial={map} />
       </main>
 
